@@ -624,6 +624,10 @@ model.fit(dataset, epochs=EPOCHS)
 
 # 5/8
 model.save_weights('./checkpoints/my_checkpoint') # 5/9 checkpoints에 파일 셋이 만들어짐
+
+
+
+# -- 아래는 기존 
 #수동으로 가중치 저장하기
 #가중치를 수동으로 저장하려면 tf.keras.Model.save_weights를 사용합니다. 기본적으로 tf.keras, 그리고 특히 Model.save_weights 메서드는 .ckpt 확장자가 있는 TensorFlow 체크포인트 형식을 사용합니다.
 
